@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/telia-oss/go-openai"
 	"io"
 	"mime"
 	"net/http"
@@ -11,9 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/telia-oss/go-openai/internal/test"
+	"github.com/telia-oss/go-openai/internal/test/checks"
 )
 
 func TestSpeechIntegration(t *testing.T) {

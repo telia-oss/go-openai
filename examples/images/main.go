@@ -3,9 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/telia-oss/go-openai"
 	"os"
-
-	"github.com/sashabaranov/go-openai"
 )
 
 func main() {

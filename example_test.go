@@ -6,12 +6,11 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
+	"github.com/telia-oss/go-openai"
 	"io"
 	"net/http"
 	"net/url"
 	"os"
-
-	"github.com/sashabaranov/go-openai"
 )
 
 func Example() {
